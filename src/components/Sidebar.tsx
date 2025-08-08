@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import ConnectSocialModal from "./ConnectSocialModal";
 
 const menuItems = [
-  { label: "Dashboard", icon: "🏠", path: "/" },
+  { label: "Dashboard", icon: "🏠", path: "/dashboard" },
   { label: "Socials", icon: "👤" },
   { label: "Analytics", icon: "📊", path: "/analytics" },
   { label: "Schedule Calendar", icon: "🗓️", path: "/schedule" },
