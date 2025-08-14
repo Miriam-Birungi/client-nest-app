@@ -8,9 +8,10 @@ const menuItems = [
   { label: "Socials", icon: "👤" },
   { label: "Analytics", icon: "📊", path: "/analytics" },
   { label: "Schedule Calendar", icon: "🗓️", path: "/schedule" },
+  { label: "Media", icon: "🖼️", path: "/media" },
   { label: "Reports", icon: "📄" },
-  { label: "Team Collaboration", icon: "👥" },
-  { label: "Settings", icon: "⚙️" },
+  { label: "Team Collaboration", icon: "👥", path: "/team" },
+  { label: "Settings", icon: "⚙️", path: "/settings" },
 ];
 
 export default function Sidebar() {
