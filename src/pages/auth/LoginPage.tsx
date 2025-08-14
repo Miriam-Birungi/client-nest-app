@@ -34,7 +34,7 @@ const LoginPage: React.FC = () => {
       // alert("Login successful! (Demo only)");
       setForm({ email: "", password: "", remember: false });
       setTouched({});
-      navigate("/dashboard");
+      navigate("/dashboard"); // Redirect to the dashboard page
     }
   };
 
